@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Aconex Test Suite">
+<listeners>
+	<listener class-name="com.oracle.aconex.util.ExtentReporterNG"/>
+</listeners>
+ <test name="Aconext Tests">
+  <classes>
+   <class name="com.oracle.aconex.tests.AconexDocumentTests"/>
+   <class name="com.oracle.aconex.tests.AconexMailTests"/>
+  </classes>
+ </test>
+</suite>
